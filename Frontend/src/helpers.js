@@ -1,5 +1,5 @@
 const DEBUG = import.meta.env.DEV; // checks if environment is dev of prod
-const BASE_URL = DEBUG ? 'http://192.168.0.190:3000' : import.meta.env.VITE_API_URL;
+const BASE_URL = DEBUG ? 'http://192.168.1.124:3000' : import.meta.env.VITE_API_URL;
 
 export {
   getActiveAuctions,
